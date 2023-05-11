@@ -8,3 +8,18 @@ h4 {
   font-weight: 400;
   font-style: normal;
 }
+.bg-scroll {
+  background-image: url("/clouds_2.png ");
+  background-position: right;
+  background-repeat: repeat-y;
+  animation: scroll-bg 90s linear infinite;
+}
+
+@keyframes scroll-bg {
+  0% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
