@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="https://use.typekit.net/xvl5aez.css" />
       </head>
       <Providers>
-        <body>
+        <body className="bg-blue-600">
           <NavBar />{children}
           <Footer />
         </body></Providers>

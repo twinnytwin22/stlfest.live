@@ -5,8 +5,8 @@ import ContactButton from './navigation/modal'
 
 function VendorVolunteer() {
     return (
-        <div>
-            <div className='max-w-screen-xl mx-auto w-full min-h-[300px] relative'>
+        <div className='bg-slate-300'>
+            <div className='max-w-screen-xl mx-auto w-full min-h-[300px] relative '>
                 <div className='w-full flex flex-col lg:flex-row mx-auto justify-around p-12 items-center space-y-8 lg:space-y-0 duration-150 ease-in-out'>
                     <div className='bg-gray-100 border border-gray-200 p-8 max-w-sm lg:max-w-md w-full space-y-3'>
                         <h1 className='font-[bubblegum-pop-highlight] text-center text-3xl'>Now Accepting Vendors</h1>
