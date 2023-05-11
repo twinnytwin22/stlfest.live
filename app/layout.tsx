@@ -5,7 +5,7 @@ export const metadata = {
   title: 'STL FEST 2023',
   description: 'STL FEST 2023',
   openGraph: {
-    title: "RandalHerndon.com",
+    title: "STLFEST.live",
     description:
       "STL FEST 2023",
     url: "https:/stlfest.live",
