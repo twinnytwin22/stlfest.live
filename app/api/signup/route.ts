@@ -1,21 +1,18 @@
-import sgMail from '@sendgrid/mail';
-import { NextResponse } from 'next/server';
+import sgMail from "@sendgrid/mail";
+import { NextResponse } from "next/server";
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY as string);
 
 export async function POST(req: Request) {
   const { subject, email, message, name } = await req.json();
   if (!email) {
-   return new Response( 'error: Email is required' );
-    
+    return new Response("error: Email is required");
   }
 
   const msg = {
     to: email,
     cc: process.env.FROM_EMAIL as string,
     from: process.env.FROM_EMAIL as string,
-    subject: 'Contact form submission from RandalHerndon.com',
-    text: 'New Message from Randal',
     html: `
     <!DOCTYPE html>
     <html>
@@ -104,10 +101,10 @@ export async function POST(req: Request) {
 
   try {
     await sgMail.send(msg);
-    console.log('Email sent');
-    new Response('success: true')
+    console.log("Email sent");
+    new Response("success: true");
   } catch (error) {
     console.error(error);
-    new Response('error: Error sending email')
+    new Response("error: Error sending email");
   }
 }
