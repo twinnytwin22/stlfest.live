@@ -7,8 +7,8 @@ const Modal = ({ handleClose }: { handleClose: () => void }) => {
 
 
   return (
-    <div className="fixed inset-0 z-99 flex items-center justify-center mx-8">
-      <div className="bg-blue-950">
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center mx-8 ">
+      <div className="bg-blue-700">
         <ContactForm style={{ zIndex: 10000 }} />{" "}
         {!window && <button
           className="bg-blue-500 text-white px-4 py-2 text-sm w-24 rounded-lg shadow-md hover:bg-blue-600 transition-colors duration-300"
@@ -40,7 +40,7 @@ const ContactButton = () => {
   return (
     <div className="">
 
-      <p onClick={handleOpenModal} className="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 lg:hover:bg-transparent lg:border-0 hover:text-white lg:p-0">Contact</p>
+      <p onClick={handleOpenModal} className="block py-2 pr-4 pl-3 text-white lg:hover:bg-transparent lg:border-0 hover:text-white lg:p-0 md:hover:scale-105 ease-in-out duration-150">Contact</p>
       <AnimatePresence>
         {isOpen && <Modal handleClose={handleCloseModal} />}
       </AnimatePresence>

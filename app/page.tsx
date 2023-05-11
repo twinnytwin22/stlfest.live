@@ -5,7 +5,7 @@ import VendorVolunteer from '../ui/VendorVolunteer'
 
 function page() {
     return (
-        <div>
+        <div className=''>
             <HomeHeader />
             <PhotoSlide />
             <VendorVolunteer />
