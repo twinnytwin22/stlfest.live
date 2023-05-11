@@ -22,7 +22,7 @@ function HomeHeader() {
                         <span className="text-xs bg-primary-600 text-white px-4 py-1.5 mr-3"><AiFillStar className='w-4 h-4 text-yellow-400' /></span> <span className="text-sm font-medium font-[owners]">Tickets on sale 5/14</span>
                         <svg className="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path></svg>
                     </Link>
-                    <img className='max-w-xs p-12 mx-auto hover:scale-110 duration-150 ease-in-out' src="/images/logo_trans.png"></img>
+                    <img className='max-w-xs p-12 mx-auto hover:scale-110 duration-150 ease-in-out -z-0 relative' src="/images/logo_trans.png"></img>
                     <h1 className=" font-extrabold leading-none text-6xl lg:text-8xl text-white font-[bubblegum-pop-highlight] tracking-wide">7.2.23</h1>
                     <div className='mb-2 -mt-2'><SocialRow /></div>
                     <SignUp />
