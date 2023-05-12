@@ -8,6 +8,7 @@ module.exports = {
   ],
   fontFamily: {
     'professor': ['professor', 'sans-serif'],
+    'owners': ['owners', 'sans-serif'],
     'owners-wide': ['owners-wide', 'sans-serif'],
     'owners-xwide': ['owners-xwide', 'sans-serif'],
     'owners-xxwide': ['owners-xxwide', 'sans-serif'],
