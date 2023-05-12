@@ -1,4 +1,5 @@
 import { google } from "googleapis";
+import { GoogleAuth } from "google-auth-library";
 
 type SignUpEmail = {
   email: string;
@@ -12,7 +13,7 @@ export async function POST(req: Request) {
     return new Response("error: Email is required");
   }
   try {
-    const auth = new google.auth.GoogleAuth({
+    const auth = new GoogleAuth({
       credentials: {
         client_email: process.env.GOOGLE_CLIENT_EMAIL,
         private_key: process.env.GOOGLE_PRIVATE_KEY,
@@ -24,12 +25,12 @@ export async function POST(req: Request) {
       ],
     });
 
-    const sheets = google.sheets({ version: "v4", auth });
+    const sheet = google.sheets({ version: "v4", auth });
     const spreadsheetId = process.env.GOOGLE_SHEET_ID;
-    const range = "Sheet1!A1:B1";
+    const range = "Sheet1!A:A";
     console.log("getting result");
 
-    const result = await sheets.spreadsheets.values.append({
+    const result = await sheet.spreadsheets.values.append({
       spreadsheetId: spreadsheetId,
       range: range, // Append to column A of Sheet1
       valueInputOption: "USER_ENTERED",
