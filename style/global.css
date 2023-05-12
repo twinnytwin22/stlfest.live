@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://use.typekit.net/xvl5aez.css");
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
 
 h4 {
   font-family: "bubblegum-pop-highlight", sans-serif;
@@ -22,4 +23,12 @@ h4 {
   100% {
     background-position: left;
   }
+}
+
+@font-face {
+  font-family: "owners2";
+  src: url("/fonts/owners/owners-black.otf") format("otf"),
+    url("/fonts/owners/owners-black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }

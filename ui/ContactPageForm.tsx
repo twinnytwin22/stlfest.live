@@ -41,7 +41,7 @@ const ContactForm = ({ handleInputClick }: any) => {
       <h1 className="mb-4 text-6xl tracking-tight font-extrabold text-center text-white font-[bubblegum-pop-highlight]">
         Let's Chat!
       </h1>
-      <form onSubmit={handleSubmit} className="flex flex-col w-full space-y-8 font-['owners']">
+      <form onSubmit={handleSubmit} className="flex flex-col w-full space-y-8 font-['owners2']">
         <div>
           <label
             htmlFor="email"
@@ -50,7 +50,7 @@ const ContactForm = ({ handleInputClick }: any) => {
             Your email
           </label>
           <input
-            className="shadow-sm bg-gray-50 border border-gray-300  text-black dark:text-white  text-sm  focus:ring-red-300 focus:border-red-300 block w-full p-2.5  required"
+            className="shadow-sm bg-gray-50 border border-gray-300  text-black dark:text-white  text-sm rounded-md focus:ring-red-300 focus:border-red-300 block w-full p-2.5  required"
             type="email"
             name="email"
             value={formData.email}
@@ -68,7 +68,7 @@ const ContactForm = ({ handleInputClick }: any) => {
               Your Name
             </label>
             <input
-              className="shadow-sm bg-gray-50 border border-gray-300  text-black dark:text-white  text-sm  focus:ring-red-300 focus:border-red-300 block w-full p-2.5 required"
+              className="shadow-sm bg-gray-50 border border-gray-300  text-black dark:text-white  text-sm rounded-md focus:ring-red-300 focus:border-red-300 block w-full p-2.5 required"
               type="text"
               name="name"
               value={formData.name}
@@ -84,7 +84,7 @@ const ContactForm = ({ handleInputClick }: any) => {
               Subject
             </label>
             <input
-              className="shadow-sm bg-gray-50 border  border-gray-300 text-black text-sm  focus:ring-red-300 focus:border-red-300 block w-full p-2.5 required"
+              className="shadow-sm bg-gray-50 border  border-gray-300 text-black text-sm rounded-md focus:ring-red-300 focus:border-red-300 block w-full p-2.5 required"
               type="text"
               name="subject"
               value={formData.subject}
@@ -101,7 +101,7 @@ const ContactForm = ({ handleInputClick }: any) => {
             Your message
           </label>
           <textarea
-            className="shadow-sm bg-gray-50 border h-full border-gray-300  text-black text-sm  focus:ring-red-300 focus:border-red-300 block w-full p-2.5 required"
+            className="shadow-sm bg-gray-50 border h-full border-gray-300  text-black text-sm rounded-md focus:ring-red-300 focus:border-red-300 block w-full p-2.5 required"
             name="message"
             value={formData.message}
             onChange={handleChange}

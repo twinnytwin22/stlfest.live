@@ -13,7 +13,6 @@ export default function Providers({ children }) {
         <html lang="en">
             <head>
                 <link rel="stylesheet" href="https://use.typekit.net/xvl5aez.css" />
-
             </head>
             <body>{children}</body>
         </html>
