@@ -41,7 +41,7 @@ const ContactForm = ({ handleInputClick }: any) => {
       <h1 className="mb-4 text-6xl tracking-tight font-extrabold text-center text-white font-[bubblegum-pop-highlight]">
         Let's Chat!
       </h1>
-      <form onSubmit={handleSubmit} className="flex flex-col w-full space-y-8 font-[owners]">
+      <form onSubmit={handleSubmit} className="flex flex-col w-full space-y-8 font-['owners']">
         <div>
           <label
             htmlFor="email"

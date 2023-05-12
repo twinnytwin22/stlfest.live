@@ -36,7 +36,7 @@ function NavBar() {
                     </div>
                     {isOpen && <MobileNav />}
                     <div className="hidden justify-between items-center w-full lg:flex lg:w-auto ">
-                        <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 font-[owners]">
+                        <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 font-['owners']">
 
                             <li>
                                 <Link href="https://docs.google.com/forms/d/e/1FAIpQLScs6LToQlWOXR29qm6_Yp9O9IvnIh4OT0xHFxqh-n5NCao5bQ/viewform" className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">Vendors</Link>
