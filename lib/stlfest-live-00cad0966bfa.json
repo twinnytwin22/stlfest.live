@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "stlfest-live",
+  "private_key_id": "00cad0966bfa5303b23ccd4901593087498653f1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0dLzYgm/jKL8b\nIOdu5hJL5fCjnRMXVmDfuo9EdYemIloWIP6tddyxO2TUl++p0IQEFE6wN+BLSNgl\nTg8/yHXV788yIpyLn22HSg/bKHvkgVqgBXNHmqw6d7xsQ6LCSzv6s3mDMhyXQVmy\nUjqGgDRv8k4jnOkaKgUKYpO8gS+GLs9BbIP134I4EdCSp+FEg873sIJjtLDACM2C\nXwSimZeY+h+ZDdJ2BuT2/WoCsIX0jSxkaHR5/yK8/zSRX9gaXG26C7zaBienRz+B\nrWeQTKEfehVaXJscG87OQX4BNk5XOrgCR0dbElZ4W+w42IPI0OlURc6M/PhzMlm1\naP3rsroRAgMBAAECggEAGDM1kMrWoBM6pF6NGt6zd8aONxWIALpemHJSPJSPDJ+7\nuWRTCHEaF7yG1knKjq6TcwvuzOFZbM8yiWIxV6pAPzX/Rn0aGvwA5MKbuMDHnfUe\nRv/OyLynOdoNL0RXbeXyqmQU43FoyydXlOXudP4kH2/SZyKSUiYYx0lBVbzKDPI9\nZpB2/D1b2oyFSoDePWHF5BJ1CfszsByKf9ER/Zg8K31qP5nkAPaDm5/mKZUQKdCX\n7xqyv5eUdh7SjvnKy+i9lzoCkfEQeVJpCirX0hwlC83l10JazKFjMr3QU/tkdXyf\n8pAZEQuq+pPVrpxXEhV74rrFrduRG6rObOl4sin3pwKBgQDfXNq4D1X24xbq3IZO\n/lyu3oqkPabRNAEKlM8DV+oXWWD0t7y/uvxmegCg32hOfvFEbUU6XY2EzThAt6wt\ngLQAKVUIB++NkAPw5NcoXgbOGNBs3n0H1kWOkum6Kh+L/tByOzxWtkGMt7tKz1LQ\nzT5R+HUiHNn/NtTBjE/TUF8eQwKBgQDO0uhKTf/JQDN0J97vLgecXLveQxjtW+oD\niGs3oTy/tiVx+xYA7tMxWUbG1Rioghtqc9XEBesc0k5ZJgB0QGAEH5P/JssG+qD1\nDApy/y74Dcu7yAg8cC21HQP4x/wKeW8ZmYE9NQQXXcDkS9Xgx155AE4p+bIONzKp\nfDo2tdVDGwKBgDelQ1wNfgYWxxPVwqQVXHO4P2PxdAi0YvoG3pffpBMTEkOFLsG5\nTL4e8N8jKTI9D9BTRKbovaPzGGuPFpbzdGSB54wrpfNniIPQDwYgfqODrREiUJXO\nPN/rG81kRx2yaq26siqMF0J+V2uowOIB79+t/Uh1VZ3uRAy/7vcfE8NPAoGAUvkh\n381y9JYhDlSAh4v72asKY5yff3oEY+5ytRqmeHLmitekeDNX3tBmKJaNEe1AenCG\nLeIB9MoaTIGGZRz+aCkTAqXZha8+q5BtEL13ZmSCe49AXp7Sd3pwgXoZj0owXCDN\nTHTcc1NVc0FJSKgzKnAI66YU3McgOAZyhEhmikkCgYBTfiZmmMFP4SDdq3IiS0sT\nmbTI4zmhPfnbV+OE6ryUX4U+6iCu1PjzQhke2+urepQGIFMq96TSyPmQfX2LId0p\nwTJglICF0Fiytyi7Tan9RscLzlgvzI8xCVxvTdRU9rAiISYIB3KF4EpEV9M7Ttjp\nTGk6bEs4DpcHXJ7L3FgYtQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "stlfest-signups@stlfest-live.iam.gserviceaccount.com",
+  "client_id": "101025077476310082487",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/stlfest-signups%40stlfest-live.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

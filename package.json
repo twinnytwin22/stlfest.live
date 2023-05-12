@@ -12,10 +12,11 @@
   "author": "Randal Herndon",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
     "@sendgrid/mail": "^7.7.0",
     "autoprefixer": "^10.4.14",
     "framer-motion": "^10.12.10",
-    "googleapis": "^118.0.0",
+    "googleapis": "^105.0.0",
     "moment": "^2.29.4",
     "next": "^13.4.1",
     "postcss": "^8.4.23",
