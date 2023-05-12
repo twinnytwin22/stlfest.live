@@ -6,14 +6,16 @@ type SignUpEmail = {
 
 export async function POST(req: Request) {
   const { email } = (await req.json()) as SignUpEmail;
+  console.log(email, "submitted");
+
   if (!email) {
     return new Response("error: Email is required");
   }
   try {
     const auth = new google.auth.GoogleAuth({
       credentials: {
-        client_email: process.env.GOOGLE_ID,
-        private_key: process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, "\n"),
+        client_email: process.env.GOOGLE_CLIENT_EMAIL,
+        private_key: process.env.GOOGLE_PRIVATE_KEY,
       },
       scopes: [
         "https://www.googleapis.com/auth/drive",
@@ -23,12 +25,12 @@ export async function POST(req: Request) {
     });
 
     const sheets = google.sheets({ version: "v4", auth });
-    const spreadsheetId = process.env.SHEET_ID;
-    const range = "Sheet1!A1:B1";
+    const spreadsheetId = process.env.GOOGLE_SHEET_ID;
+    const range = "Sheet1!A1";
     console.log("getting result");
 
     const result = await sheets.spreadsheets.values.append({
-      spreadsheetId,
+      spreadsheetId: spreadsheetId,
       range: range, // Append to column A of Sheet1
       valueInputOption: "USER_ENTERED",
       requestBody: {

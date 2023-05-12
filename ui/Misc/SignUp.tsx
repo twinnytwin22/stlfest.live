@@ -15,6 +15,7 @@ function SignUp() {
     const handleSubmit = async (e: any) => {
         e.preventDefault();
         try {
+            console.log(formData.email)
             const res = await fetch("/api/signup", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -34,7 +35,7 @@ function SignUp() {
     return (
         <div>
             <form onSubmit={handleSubmit} className='flex-col md:flex-row flex mx-auto items-center content-center max-w-md w-full'>
-                <input type="text" className='mx-auto p-2.5 w-full' placeholder='your email' onChange={handleChange} />
+                <input type="text" className='mx-auto p-2.5 w-full' placeholder='your email' onChange={handleChange} id='email' name='email' />
                 <button className='p-2.5 bg-red-600 text-white font-["owners2"] px-4 whitespace-nowrap hover:scale-105 duration-150 ease-in-out w-full md:w-auto'>Sign up for updates</button>
             </form>
             {status === "success" && <p className=" text-white font-['owners2'] pt-2.5 text-lg">Email saved!</p>}
