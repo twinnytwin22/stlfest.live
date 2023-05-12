@@ -32,13 +32,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="stylesheet" href="https://use.typekit.net/xvl5aez.css" />
-      </head>
+
       <Providers>
-        <body className="bg-blue-600">
-          <NavBar />{children}
-          <Footer />
+        <body >
+          <div >
+            <NavBar />{children}
+            <Footer /></div>
         </body></Providers>
     </html>
   )
