@@ -20,13 +20,13 @@ export async function POST(req: Request) {
       scopes: [
         "https://www.googleapis.com/auth/drive",
         "https://www.googleapis.com/auth/drive.file",
-        "https://www.googleapis.com/auth/drive/spreedsheets",
+        "https://www.googleapis.com/auth/spreedsheets",
       ],
     });
 
     const sheets = google.sheets({ version: "v4", auth });
     const spreadsheetId = process.env.GOOGLE_SHEET_ID;
-    const range = "Sheet1!A1";
+    const range = "Sheet1!A1:B1";
     console.log("getting result");
 
     const result = await sheets.spreadsheets.values.append({
