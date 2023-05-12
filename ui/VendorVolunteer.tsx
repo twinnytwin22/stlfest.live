@@ -11,7 +11,7 @@ function VendorVolunteer() {
                     <div className='bg-gray-100 border border-gray-200 p-8 max-w-sm lg:max-w-md w-full space-y-3'>
                         <h1 className='font-[bubblegum-pop-highlight] text-center text-3xl'>Now Accepting Vendors</h1>
                         <p className='text-center text-gray-700'>Have a food truck, brand, or business and want to get in on the action, apply to become a vendor.</p>
-                        <Link href='https://docs.google.com/forms/d/e/1FAIpQLSdrQEdHdEnTF9ymWJ18CfZpeXI0krQsAEGF7OyzWWV2xgEiDQ/viewform'>
+                        <Link href='https://docs.google.com/forms/d/e/1FAIpQLScs6LToQlWOXR29qm6_Yp9O9IvnIh4OT0xHFxqh-n5NCao5bQ/viewform'>
                             <div className='text-white  bg-red-600 p-2.5 font-["owners2"] w-fit px-6 mx-auto hover:scale-105 mt-2  duration-150 ease-in-out'>
                                 Apply
                             </div>
