@@ -4,7 +4,7 @@ import FlashSale from '../../ui/FlashSale'
 
 function page() {
     return (
-        <div className='w-screen justify-center content-center items-center mx-auto p-16 bg-white h-full min-h-screen overflow-hidden will-change-auto'>
+        <div className='w-full max-w-screen justify-center content-center items-center mx-auto p-16 bg-white h-full min-h-screen overflow-hidden will-change-auto'>
             <FlashSale />
             <div className='mx-auto'>
                 <Link href="https://www.ticketfalcon.com/e/stlfestflashsale/">
