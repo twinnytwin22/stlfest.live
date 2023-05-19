@@ -6,8 +6,9 @@ import FlashSale from '../ui/FlashSale'
 
 function page() {
     return (
-        <div className='mt-16'>
+        <div className='mt-16 max-w-screen'>
             <HomeHeader />
+
             <PhotoSlide />
             <VendorVolunteer />
         </div>

@@ -6,9 +6,9 @@ function FlashSale() {
         <Iframe
             scrolling="no"
             width="100%"
-            height="2200"
-            className="mx-auto bg-white p-4 touch-auto max-w-screen-2xl justify-center w-full"
-            url="https://www.ticketfalcon.com/e/stlfestflashsale/"
+            height="900"
+            className="mx-auto bg-white p-4 touch-auto max-w-screen-2xl justify-center w-full min-h-screen"
+            url="https://www.ticketfalcon.com/embed-tickets/1627153/1/"
         ></Iframe >
     );
 }

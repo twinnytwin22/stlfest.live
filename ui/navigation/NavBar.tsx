@@ -82,7 +82,7 @@ const MobileNav = () => {
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrQEdHdEnTF9ymWJ18CfZpeXI0krQsAEGF7OyzWWV2xgEiDQ/viewform" className="block py-2 pr-4 pl-3 text-gray-300 hover:text-white lg:p-0">Volunteer</a>
                 </li>
                 <li>
-                    <a href={extLink} className="block py-2 pr-4 pl-3 text-gray-300 hover:text-white lg:p-0  ">Tickets</a>
+                    <a href={intLink} className="block py-2 pr-4 pl-3 text-gray-300 hover:text-white lg:p-0  ">Tickets</a>
                 </li>
                 <li>
                     <a href="#" className="block py-2 pr-4 pl-3 text-gray-300 hover:text-white lg:p-0  ">FAQs</a>
