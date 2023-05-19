@@ -4,6 +4,10 @@ import React, { useState } from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
 import ContactButton from './modal'
 
+
+const extLink = 'https://www.ticketfalcon.com/e/stlfestflashsale/'
+const intLink = '/tickets'
+
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -16,6 +20,7 @@ function NavBar() {
         console.log('close')
         setIsOpen(false);
     };
+
     return (
         <header className='fixed top-0 right-0 left-0 z-50'>
             <nav className=" bg-blue-600 border-gray-200 px-4 lg:px-6 py-2.5 relative">
@@ -43,6 +48,9 @@ function NavBar() {
                             </li>
                             <li>
                                 <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdrQEdHdEnTF9ymWJ18CfZpeXI0krQsAEGF7OyzWWV2xgEiDQ/viewform" className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">Volunteer</Link>
+                            </li>
+                            <li>
+                                <Link href={intLink} className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150 ">Tickets</Link>
                             </li>
                             <li>
                                 <Link href="#" className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150 ">FAQs</Link>
@@ -74,7 +82,7 @@ const MobileNav = () => {
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrQEdHdEnTF9ymWJ18CfZpeXI0krQsAEGF7OyzWWV2xgEiDQ/viewform" className="block py-2 pr-4 pl-3 text-gray-300 hover:text-white lg:p-0">Volunteer</a>
                 </li>
                 <li>
-                    <a href="#" className="block py-2 pr-4 pl-3 text-gray-300 hover:text-white lg:p-0  ">Tickets</a>
+                    <a href={intLink} className="block py-2 pr-4 pl-3 text-gray-300 hover:text-white lg:p-0  ">Tickets</a>
                 </li>
                 <li>
                     <a href="#" className="block py-2 pr-4 pl-3 text-gray-300 hover:text-white lg:p-0  ">FAQs</a>
