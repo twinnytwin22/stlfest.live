@@ -43,22 +43,8 @@ function NavBar() {
                     <div className="hidden justify-between items-center w-full lg:flex lg:w-auto ">
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 font-['owners2']">
 
-                            <li>
-                                <Link href={peoplesChoice} className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">People's Choice</Link>
-                            </li>
-                            <li>
-                                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdrQEdHdEnTF9ymWJ18CfZpeXI0krQsAEGF7OyzWWV2xgEiDQ/viewform" className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">Volunteer</Link>
-                            </li>
-                            <li>
-                                <Link href={extLink} className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150 ">Tickets</Link>
-                            </li>
-                            <li>
-                                <Link href="#" className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150 ">FAQs</Link>
-                            </li>
-                            <li>
-                                <ContactButton />
-                            </li>
 
+                            <Routes />
                         </ul>
                     </div>
                 </div>
@@ -75,23 +61,33 @@ const MobileNav = () => {
         >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 font-[bubblegum-pop-vanilla] text-5xl">
 
-                <li>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScs6LToQlWOXR29qm6_Yp9O9IvnIh4OT0xHFxqh-n5NCao5bQ/viewform" className="block py-2 pr-4 pl-3 text-gray-300 hover:text-white lg:p-0 ">Vendors</a>
-                </li>
-                <li>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrQEdHdEnTF9ymWJ18CfZpeXI0krQsAEGF7OyzWWV2xgEiDQ/viewform" className="block py-2 pr-4 pl-3 text-gray-300 hover:text-white lg:p-0">Volunteer</a>
-                </li>
-                <li>
-                    <a href={extLink} className="block py-2 pr-4 pl-3 text-gray-300 hover:text-white lg:p-0  ">Tickets</a>
-                </li>
-                <li>
-                    <a href="#" className="block py-2 pr-4 pl-3 text-gray-300 hover:text-white lg:p-0  ">FAQs</a>
-                </li>
-                <li>
-                    <ContactButton />
-                </li>
+                <Routes />
 
             </ul>
         </div>
+    )
+}
+
+const Routes = () => {
+    return (
+        <>        <li>
+            <Link href={peoplesChoice} className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">People's Choice</Link>
+        </li>
+            <li>
+                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdrQEdHdEnTF9ymWJ18CfZpeXI0krQsAEGF7OyzWWV2xgEiDQ/viewform" className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">Volunteer</Link>
+            </li>
+            <li>
+                <Link href={extLink} className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150 ">Tickets</Link>
+            </li>
+            <li>
+                <Link href="https://form.jotform.com/212233927554052" className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150  ">Press</Link>
+            </li>
+            <li>
+                <Link href="#" className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150 ">FAQs</Link>
+            </li>
+            <li>
+                <ContactButton />
+            </li>
+        </>
     )
 }
