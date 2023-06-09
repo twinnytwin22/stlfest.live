@@ -7,7 +7,7 @@ import ContactButton from './modal'
 
 const extLink = 'https://www.ticketfalcon.com/e/stlfestflashsale/'
 const intLink = '/tickets'
-
+const peoplesChoice = 'https://docs.google.com/forms/d/e/1FAIpQLSfDTsIQSPgKdrYZAVKWwlyYU7jp9osbW9dwTCngxDy6KQt8ew/viewform?vc=0&c=0&w=1&flr=0'
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -44,7 +44,7 @@ function NavBar() {
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 font-['owners2']">
 
                             <li>
-                                <Link href="https://docs.google.com/forms/d/e/1FAIpQLScs6LToQlWOXR29qm6_Yp9O9IvnIh4OT0xHFxqh-n5NCao5bQ/viewform" className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">Vendors</Link>
+                                <Link href={peoplesChoice} className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">People's Choice</Link>
                             </li>
                             <li>
                                 <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdrQEdHdEnTF9ymWJ18CfZpeXI0krQsAEGF7OyzWWV2xgEiDQ/viewform" className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">Volunteer</Link>
