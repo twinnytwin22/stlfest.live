@@ -9,12 +9,15 @@ function VendorVolunteer() {
             <div className='max-w-screen-xl mx-auto w-full min-h-[300px] relative '>
                 <div className='w-full flex flex-col lg:flex-row mx-auto justify-around p-12 items-center space-y-8 lg:space-y-0 duration-150 ease-in-out'>
                     <div className='bg-gray-100 border border-gray-200 p-8 max-w-sm lg:max-w-md w-full space-y-3'>
-                        <h1 className='font-[bubblegum-pop-highlight] text-center text-3xl'>Now Accepting Vendors</h1>
-                        <p className='text-center text-gray-700'>Have a food truck, brand, or business and want to get in on the action, apply to become a vendor.</p>
-                        <Link href='https://docs.google.com/forms/d/e/1FAIpQLScs6LToQlWOXR29qm6_Yp9O9IvnIh4OT0xHFxqh-n5NCao5bQ/viewform'>
+                        <h1 className='font-[bubblegum-pop-highlight] text-center text-3xl'>Vote For The People's Choice! </h1>
+                        <p className='text-center text-gray-700'>Who would you like to see perform at the 2023 STLF3ST Block Party?
+
+
+
+                        </p>
+                        <Link href='https://docs.google.com/forms/d/e/1FAIpQLSfDTsIQSPgKdrYZAVKWwlyYU7jp9osbW9dwTCngxDy6KQt8ew/viewform?vc=0&c=0&w=1&flr=0'>
                             <div className='text-white  bg-red-600 p-2.5 font-["owners2"] w-fit px-6 mx-auto hover:scale-105 mt-2  duration-150 ease-in-out'>
-                                Apply
-                            </div>
+                                Vote Now!                            </div>
                         </Link>
                     </div>
                     <div className='bg-gray-100 border border-gray-200 p-8 max-w-sm lg:max-w-md w-full space-y-3'>
