@@ -43,3 +43,9 @@ body {
   inset: 0;
   background-color: rgba(0, 0, 0, 0.154); /* Adjust the opacity as needed */
 }
+
+.text-outline {
+  color: white;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+}

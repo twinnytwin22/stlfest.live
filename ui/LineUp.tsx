@@ -29,7 +29,7 @@ function LineUp() {
     ];
 
     return (
-        <div className="text-center text-white relative overflow-hidden w-full font-[bubblegum-pop-highlight] bg-cover uppercase">
+        <div className="text-center text-white relative overflow-hidden w-full font-[bubblegum-pop-highlight] bg-cover uppercase text-outline">
 
             <div className="absolute inset-0 object-cover">
 
