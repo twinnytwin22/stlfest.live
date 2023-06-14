@@ -7,7 +7,7 @@ import ContactButton from './modal'
 
 const extLink = 'https://www.ticketfalcon.com/e/stlfestflashsale/'
 const intLink = '/tickets'
-const peoplesChoice = 'https://docs.google.com/forms/d/e/1FAIpQLSfDTsIQSPgKdrYZAVKWwlyYU7jp9osbW9dwTCngxDy6KQt8ew/viewform?vc=0&c=0&w=1&flr=0'
+const peoplesChoice = 'https://docs.google.com/forms/d/e/1FAIpQLSf6PVuLMC0F86awl4fMiysN2hrqNcMJQuJjtXjNhWbnI3Ligw/viewform'
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
