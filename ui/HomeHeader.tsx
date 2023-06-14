@@ -28,7 +28,10 @@ function HomeHeader() {
                     <img className='max-w-xs p-12 mx-auto hover:scale-110 duration-150 ease-in-out -z-0 relative' src="/images/logo_trans.png"></img>
                     <h1 className=" font-extrabold leading-none text-6xl lg:text-8xl text-white font-[bubblegum-pop-highlight] tracking-wide">7.2.23</h1>
                     <div className='mb-2 -mt-2'><SocialRow /></div>
-                    <SignUp />
+                    <Link href='https://docs.google.com/forms/d/e/1FAIpQLSf6PVuLMC0F86awl4fMiysN2hrqNcMJQuJjtXjNhWbnI3Ligw/viewform'>
+                        <div className='bg-red-600 w-fit p-3 font-[owners2] mx-auto text-white hover:scale-110 ease-in-out duration-200 '>
+                            VOTE THE PEOPLE'S CHOICE!
+                        </div></Link>
                     <Gap />
                     <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                         <LaunchCountdown targetDate={TARGET_DATE} />
