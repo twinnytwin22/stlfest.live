@@ -31,11 +31,11 @@ function LineUp() {
                 <Slider {...sliderSettings} className="w-full min-h-screen scale-125 lg:scale-110 justify-center">
                     {placeholderImages.map((image, index) => (
                         <div key={index} className="slider-slide object-cover min-h-screen bg-repeat">
-                            <div className="bg-blue-700 opacity-10 inset-0 absolute w-full h-full min-h-screen overflow-clip" />
+                            <div className="bg-blue-700 opacity-[15%] inset-0 absolute w-full h-full min-h-screen overflow-clip" />
                             <img
                                 src={image}
                                 alt="Placeholder"
-                                className="w-full h-full object-cover min-h-screen min-w-screen "
+                                className="w-full h-full object-cover min-h-screen min-w-screen contrast-125 "
                             />
                         </div>
                     ))}
