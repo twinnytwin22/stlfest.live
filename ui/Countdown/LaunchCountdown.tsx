@@ -37,7 +37,7 @@ const LaunchCountdown = ({ targetDate }: { targetDate: Date }) => {
   }, [targetDate]);
 
   return (
-    <div className="mx-auto w-full max-w-xl">
+    <div className="mx-auto w-full max-w-xl relative z-10">
       <div className="grid grid-cols-4 md:grid-cols-5 items-end text-white text-center justify-items-center content-center justify-center mx-auto font-[bubblegum-pop-highlight]">
         <div className="flex flex-col justify-items-center content-center justify-center bg-blue-700 p-2.5 w-24">
           <div className="text-2xl md:text-4xl font-bold">{timeRemaining.weeks % 100}</div>

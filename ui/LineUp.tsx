@@ -15,21 +15,26 @@ function LineUp() {
         arrows: false,
     };
 
-    const placeholderImages = [
+    const sliderImages = [
         "/images/stlfest1.jpg",
         "/images/stlfest2.jpg",
         "/images/stlfest3.jpg",
         "/images/stlfest4.jpg",
         "/images/stlfest5.jpg",
+        "/images/stlfest6.jpg",
+        "/images/stlfest5.jpg",
+
 
         // Add more placeholder image paths as needed
     ];
 
     return (
         <div className="text-center text-white relative overflow-hidden w-full font-[bubblegum-pop-highlight] bg-cover uppercase">
+
             <div className="absolute inset-0 object-cover">
+
                 <Slider {...sliderSettings} className="w-full min-h-screen scale-125 lg:scale-110 justify-center">
-                    {placeholderImages.map((image, index) => (
+                    {sliderImages.map((image, index) => (
                         <div key={index} className="slider-slide object-cover min-h-screen bg-repeat">
                             <div className="bg-blue-700 opacity-[15%] inset-0 absolute w-full h-full min-h-screen overflow-clip" />
                             <img
@@ -40,8 +45,10 @@ function LineUp() {
                         </div>
                     ))}
                 </Slider>
+
             </div>
-            <div className="min-w-screen px-1 md:px-2.5 mt-6">
+            <div className="min-w-screen px-1 md:px-2.5 mt-6 relative ">
+
                 <div className="max-w-5xl  mx-auto relative md:p-4 lg:p-16">
 
                     <h1 className="text-center text-white text-3xl lg:text-5xl">
@@ -145,7 +152,9 @@ function LineUp() {
                         ))}
                     </div>
                 </div>
+
             </div>
+
         </div>
     );
 }
