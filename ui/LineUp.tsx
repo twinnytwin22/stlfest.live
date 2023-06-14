@@ -114,18 +114,7 @@ function LineUp() {
                             </p>
                         ))}
                     </div>
-                    <h3 className="text-lg lg:text-xl">STL DJs Verses</h3>
-                    <div className="flex mx-auto justify-center space-x-2 text-xl lg:text-3xl flex-wrap">
-                        {bigTop.soundsBy.map((dj, index) => (
-                            <p
-                                className="hover:scale-110 ease-in-out duration-300"
-                                key={index}
-                            >
-                                {dj}
-                                {index !== bigTop.soundsBy.length - 1 && " |"}
-                            </p>
-                        ))}
-                    </div>
+
                     <h3 className="text-lg lg:text-xl">
                         Performing
                     </h3>
@@ -137,6 +126,18 @@ function LineUp() {
                             >
                                 {artist}
                                 {index !== bigTop.performances.length - 1 && " |"}
+                            </p>
+                        ))}
+                    </div>
+                    <h3 className="text-lg lg:text-xl">STL DJs Verses</h3>
+                    <div className="flex mx-auto justify-center space-x-2 text-xl lg:text-3xl flex-wrap">
+                        {bigTop.soundsBy.map((dj, index) => (
+                            <p
+                                className="hover:scale-110 ease-in-out duration-300"
+                                key={index}
+                            >
+                                {dj}
+                                {index !== bigTop.soundsBy.length - 1 && " |"}
                             </p>
                         ))}
                     </div>
