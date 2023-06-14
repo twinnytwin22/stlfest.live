@@ -37,3 +37,9 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+.image-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.154); /* Adjust the opacity as needed */
+}
