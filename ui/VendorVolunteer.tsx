@@ -5,7 +5,9 @@ import ContactButton from './navigation/modal'
 
 function VendorVolunteer() {
     return (
-        <div className='bg-slate-300'>
+        <div className='bg-slate-300 relative min-h-[500px] flex items-center pb-52 md:pb-0'>
+            <img className="absolute left-0 bottom-0 max-w-sm md:max-w-xl -z-5" src="images/bigtopImage.png" alt="Big Top Image" />
+
             <div className='max-w-screen-xl mx-auto w-full min-h-[300px] relative '>
                 <div className='w-full flex flex-col lg:flex-row mx-auto justify-around p-12 items-center space-y-8 lg:space-y-0 duration-150 ease-in-out'>
                     <div className='bg-gray-100 border border-gray-200 p-8 max-w-sm lg:max-w-md w-full space-y-3'>
@@ -30,7 +32,9 @@ function VendorVolunteer() {
                         </Link>
                     </div>
                 </div>
+
             </div>
+
         </div>
     )
 }

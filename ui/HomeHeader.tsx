@@ -43,7 +43,6 @@ function HomeHeader() {
                         <LaunchCountdown targetDate={TARGET_DATE} />
                     </div>
                 </div>
-                <img className="absolute left-0 bottom-0 max-w-sm md:max-w-xl -z-5" src="images/bigtopImage.png" alt="Big Top Image" />
             </motion.section>
         </div>
     )
