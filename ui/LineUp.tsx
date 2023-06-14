@@ -47,7 +47,7 @@ function LineUp() {
                         <h3 className="text-lg">Presented by</h3>
                         {blockParty.vipCarRow.presentedBy}
                     </div>
-                    <h1 className="text-center text-white text-2xl lg:text-5xl">
+                    <h1 className="text-center text-white text-3xl lg:text-5xl">
                         {blockParty.eventName}
                     </h1>
                     <div className="tracking-widest text-sm lg:text-base">
