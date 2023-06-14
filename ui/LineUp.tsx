@@ -34,7 +34,7 @@ function LineUp() {
                 >
                     {placeholderImages.map((image, index) => (
                         <div key={index} className="slider-slide">
-                            <div className="image-overlay pb-12" />
+                            <div className="bg-blue-700 opacity-10 inset-0 absolute pb-12 " />
                             <img
                                 src={image}
                                 alt="Placeholder"
@@ -99,7 +99,7 @@ function LineUp() {
                         {bigTop.eventName}
                     </h1>
                     <div className="tracking-widest">
-                        <h2 className="text-2xl">{bigTop.description}</h2>
+                        <h2 className="text-2xl lg:text-4xl">{bigTop.description}</h2>
                         <h3>{bigTop.accessibility}</h3>
                     </div>
                     <h3 className="text-lg lg:text-xl">With Hosts</h3>
