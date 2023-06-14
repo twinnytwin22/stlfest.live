@@ -41,16 +41,16 @@ function LineUp() {
                     ))}
                 </Slider>
             </div>
-            <div className="min-w-screen px-1 md:px-2.5">
-                <div className="max-w-5xl p-8 mx-auto relative md:p-4 lg:p-16">
-                    <div className="mx-auto  p-2.5">
-                        <h3 className="text-lg">Presented by</h3>
-                        {blockParty.vipCarRow.presentedBy}
-                    </div>
+            <div className="min-w-screen px-1 md:px-2.5 mt-6">
+                <div className="max-w-5xl  mx-auto relative md:p-4 lg:p-16">
+
                     <h1 className="text-center text-white text-3xl lg:text-5xl">
                         {blockParty.eventName}
                     </h1>
-                    <div className="tracking-widest text-sm lg:text-base">
+                    <h1 className="text-center text-white text-3xl lg:text-5xl">
+                        {blockParty.eventTime}
+                    </h1>
+                    <div className="tracking-widest text-sm lg:text-base p-2.5">
                         <h2>{blockParty.description}</h2>
                         <h3>{blockParty.accessibility}</h3>
                     </div>
@@ -89,6 +89,12 @@ function LineUp() {
                                 {index !== blockParty.performances.length - 1 && " |"}
                             </p>
                         ))}
+                    </div>
+                    <div className="mx-auto  p-2.5">
+                        <h3 className="text-2xl">VIP CAR SHOW</h3>
+
+                        <h3 className="text-base">Presented by</h3>
+                        {blockParty.vipCarRow.presentedBy}
                     </div>
                 </div>
                 <div className="max-w-5xl mx-auto relative">

@@ -1,5 +1,6 @@
 const eventInfo = {
     eventName: "Block Party",
+    eventTime: '12 - 5pm',
     description: "FOOD, GAMES, PERFORMANCES, AND VENDORS",
     accessibility: "FREE, FAMILY FRIENDLY, and OPEN TO THE PUBLIC",
     hostedBy: [
@@ -35,6 +36,7 @@ const eventInfo = {
 
 const mainEventInfo = {
     eventName: "Big Top",
+    eventTime: '',
     description: "Reggie Son aka Shorty & Friends: ",
     accessibility: "",
     hostedBy: [
