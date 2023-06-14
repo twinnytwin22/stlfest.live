@@ -26,25 +26,22 @@ function LineUp() {
     ];
 
     return (
-        <div className="text-center text-white  relative overflow-hidden w-full font-[bubblegum-pop-highlight] bg-cover uppercase">
-            <div className="absolute inset-0 object-cover pb-12">
-                <Slider
-                    {...sliderSettings}
-                    className="w-full h-full min-h-screen object-cover pb-12"
-                >
+        <div className="text-center text-white relative overflow-hidden w-full font-[bubblegum-pop-highlight] bg-cover uppercase">
+            <div className="absolute inset-0 object-cover">
+                <Slider {...sliderSettings} className="w-full min-h-screen scale-125 lg:scale-110 justify-center">
                     {placeholderImages.map((image, index) => (
-                        <div key={index} className="slider-slide">
-                            <div className="bg-blue-700 opacity-10 inset-0 absolute pb-12 " />
+                        <div key={index} className="slider-slide object-cover min-h-screen bg-repeat">
+                            <div className="bg-blue-700 opacity-10 inset-0 absolute w-full h-full min-h-screen overflow-clip" />
                             <img
                                 src={image}
                                 alt="Placeholder"
-                                className="w-full h-full min-h-screen object-cover  "
+                                className="w-full h-full object-cover min-h-screen min-w-screen "
                             />
                         </div>
                     ))}
                 </Slider>
             </div>
-            <div className="min-w-screen ">
+            <div className="min-w-screen px-1 md:px-2.5">
                 <div className="max-w-5xl p-8 mx-auto relative md:p-4 lg:p-16">
                     <div className="mx-auto  p-2.5">
                         <h3 className="text-lg">Presented by</h3>
@@ -94,7 +91,7 @@ function LineUp() {
                         ))}
                     </div>
                 </div>
-                <div className="max-w-5xl mx-auto relative pb-8">
+                <div className="max-w-5xl mx-auto relative">
                     <h1 className="text-center text-white text-3xl lg:text-5xl">
                         {bigTop.eventName}
                     </h1>
@@ -130,7 +127,7 @@ function LineUp() {
                         ))}
                     </div>
                     <h3 className="text-lg lg:text-xl">STL DJs Verses</h3>
-                    <div className="flex mx-auto justify-center space-x-2 text-xl lg:text-3xl flex-wrap">
+                    <div className="flex mx-auto justify-center space-x-2 text-xl lg:text-3xl flex-wrap mb-10">
                         {bigTop.soundsBy.map((dj, index) => (
                             <p
                                 className="hover:scale-110 ease-in-out duration-300"
