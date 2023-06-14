@@ -15,7 +15,7 @@ function VendorVolunteer() {
 
 
                         </p>
-                        <Link href='https://docs.google.com/forms/d/e/1FAIpQLSfDTsIQSPgKdrYZAVKWwlyYU7jp9osbW9dwTCngxDy6KQt8ew/viewform?vc=0&c=0&w=1&flr=0'>
+                        <Link href='https://docs.google.com/forms/d/e/1FAIpQLSf6PVuLMC0F86awl4fMiysN2hrqNcMJQuJjtXjNhWbnI3Ligw/viewform'>
                             <div className='text-white  bg-red-600 p-2.5 font-["owners2"] w-fit px-6 mx-auto hover:scale-105 mt-2  duration-150 ease-in-out'>
                                 Vote Now!                            </div>
                         </Link>
