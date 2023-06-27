@@ -10,7 +10,7 @@ function VendorVolunteer() {
 
             <div className='max-w-screen-xl mx-auto w-full min-h-[300px] relative '>
                 <div className='w-full flex flex-col lg:flex-row mx-auto justify-around p-12 items-center space-y-8 lg:space-y-0 duration-150 ease-in-out'>
-                    <div className='bg-gray-100 border border-gray-200 p-8 max-w-sm lg:max-w-md w-full space-y-3'>
+                    <div className='bg-gray-100 border border-gray-200 p-8 max-w-sm lg:max-w-md w-full space-y-3 hidden'>
                         <h1 className='font-[bubblegum-pop-highlight] text-center text-3xl uppercase'>Vote For The People's Choice! </h1>
                         <p className='text-center text-gray-700'>Who would you like to see perform at the 2023 STLF3ST Block Party?
 
