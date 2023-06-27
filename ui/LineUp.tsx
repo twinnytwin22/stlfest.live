@@ -108,6 +108,9 @@ function LineUp() {
                     <h1 className="text-center text-white text-3xl lg:text-5xl">
                         {bigTop.eventName}
                     </h1>
+                    <h1 className="text-center text-white text-3xl lg:text-5xl">
+                        Rich Homie Quan
+                    </h1>
                     <div className="tracking-widest">
                         <h2 className="text-2xl lg:text-4xl">{bigTop.description}</h2>
                         <h3>{bigTop.accessibility}</h3>

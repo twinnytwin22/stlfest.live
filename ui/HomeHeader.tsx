@@ -33,7 +33,7 @@ function HomeHeader() {
                     <img className='max-w-xs p-12 mx-auto hover:scale-110 duration-150 ease-in-out relative z-10' src="/images/logo_trans.png" alt="Logo" />
                     <h1 className="font-extrabold leading-none text-6xl lg:text-8xl text-white font-[bubblegum-pop-highlight] tracking-wide">7.2.23</h1>
                     <div className='mb-2 -mt-2'><SocialRow /></div>
-                    <Link className='relative z-20' href='https://docs.google.com/forms/d/e/1FAIpQLSf6PVuLMC0F86awl4fMiysN2hrqNcMJQuJjtXjNhWbnI3Ligw/viewform'>
+                    <Link className='relative hidden z-20' href='https://docs.google.com/forms/d/e/1FAIpQLSf6PVuLMC0F86awl4fMiysN2hrqNcMJQuJjtXjNhWbnI3Ligw/viewform'>
                         <div className='bg-red-600 w-fit p-3 relative z-20 font-[owners2] mx-auto text-white hover:scale-110 ease-in-out duration-200'>
                             VOTE THE PEOPLE'S CHOICE!
                         </div>
