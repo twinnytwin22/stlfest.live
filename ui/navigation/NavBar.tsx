@@ -70,19 +70,19 @@ const MobileNav = () => {
 
 const Routes = () => {
     return (
-        <>        <li>
+        <>        <li className='hidden'>
             <Link href={peoplesChoice} className="hidden py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">People's Choice</Link>
         </li>
-            <li>
+            <li className='hidden'>
                 <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdrQEdHdEnTF9ymWJ18CfZpeXI0krQsAEGF7OyzWWV2xgEiDQ/viewform" className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">Volunteer</Link>
             </li>
-            <li>
+            <li className='hidden'>
                 <Link href={extLink} className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150 ">Tickets</Link>
             </li>
-            <li>
+            <li className='hidden'>
                 <Link href="https://form.jotform.com/212233927554052" className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150  ">Press</Link>
             </li>
-            <li>
+            <li className='hidden'>
                 <Link href="#" className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150 ">FAQs</Link>
             </li>
             <li>
