@@ -27,7 +27,7 @@ function NavBar() {
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <a href="/" className="flex items-center">
                         <img src="/images/logo_trans.png" className="mr-3 h-6 sm:h-12" alt="STL FEST Logo" />
-                        <span className="self-center text-5xl font-semibold font-[groupie-regular] whitespace-nowrap text-white">2023</span>
+                        <span className="self-center text-5xl font-semibold font-[groupie-regular] whitespace-nowrap text-white">2024</span>
                     </a>
                     <div className="flex items-center ">
 
