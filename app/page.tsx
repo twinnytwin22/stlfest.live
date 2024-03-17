@@ -9,9 +9,10 @@ function page() {
     return (
         <div className='mt-16 max-w-screen'>
             <HomeHeader />
+            <div className='hidden'>
             <LineUp />
             <PhotoSlide />
-            <VendorVolunteer />
+            <VendorVolunteer /></div>
         </div>
     )
 }

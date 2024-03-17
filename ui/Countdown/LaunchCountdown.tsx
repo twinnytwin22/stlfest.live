@@ -38,8 +38,8 @@ const LaunchCountdown = ({ targetDate }: { targetDate: Date }) => {
 
   return (
     <div className="mx-auto w-full max-w-xl relative z-10">
-      <div className="grid grid-cols-4  items-end text-white text-center justify-items-center content-center justify-center mx-auto font-[bubblegum-pop-highlight]">
-        <div className="hidden flex-col justify-items-center content-center justify-center bg-blue-700 p-2.5 w-24">
+      <div className="grid grid-cols-5  items-end text-white text-center justify-items-center content-center justify-center mx-auto font-[bubblegum-pop-highlight]">
+        <div className=" flex-col justify-items-center content-center justify-center bg-blue-700 p-2.5 w-24">
           <div className="text-2xl md:text-4xl font-bold">{timeRemaining.weeks % 100}</div>
           <div className="text-xs font-semibold md:p-1 font-[owners2]">weeks</div>
         </div>
