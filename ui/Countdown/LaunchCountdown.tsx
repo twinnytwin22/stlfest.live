@@ -41,25 +41,26 @@ const LaunchCountdown = ({ targetDate }: { targetDate: Date }) => {
       <div className="grid grid-cols-5  items-end text-white text-center justify-items-center content-center justify-center mx-auto font-[bubblegum-pop-highlight]">
         <div className=" flex-col justify-items-center content-center justify-center bg-blue-700 p-2.5 w-24">
           <div className="text-2xl md:text-4xl font-bold">{timeRemaining.weeks % 100}</div>
-          <div className="text-xs font-semibold md:p-1 font-[owners2]">weeks</div>
+          <div className="text-xs font-semibold md:p-1 font-owners">weeks</div>
         </div>
         <div className="flex flex-col justify-items-center content-center justify-center bg-blue-700 p-2.5 w-24">
           <div className="text-2xl md:text-4xl font-bold">{timeRemaining.days}</div>
-          <div className="text-xs font-semibold md:p-1 font-[owners2]">days</div>
+          <div className="text-xs font-semibold md:p-1 font-owners">days</div>
         </div>
         <div className="flex flex-col justify-items-center content-center justify-center bg-blue-700 p-2.5 w-24">
           <div className="text-2xl md:text-4xl font-bold">{timeRemaining.hours}</div>
-          <div className="text-xs font-semibold md:p-1 font-[owners2]">hours</div>
+          <div className="text-xs font-semibold md:p-1 font-owners">hours</div>
         </div>
         <div className="flex flex-col justify-items-center content-center justify-center bg-blue-700 p-2.5 w-24">
           <div className="text-2xl md:text-4xl font-bold">{timeRemaining.minutes}</div>
-          <div className="text-xs font-semibold md:p-1 font-[owners2]">minutes</div>
+          <div className="text-xs font-semibold md:p-1 font-owners">minutes</div>
         </div>
         <div className="flex flex-col justify-items-center content-center justify-center bg-blue-700 p-2.5 w-24">
           <div className="text-2xl md:text-4xl font-bold">{timeRemaining.seconds}</div>
-          <div className="text-xs font-semibold md:p-1 font-[owners2]">seconds</div>
+          <div className="text-xs font-semibold md:p-1 font-owners">seconds</div>
         </div>
       </div>
+      <h3 className="font-[bubblegum-pop-highlight] text-white drop-shadow-lg text-3xl my-4">Until the big day!</h3>
     </div>
   );
 };

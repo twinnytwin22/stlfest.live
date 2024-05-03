@@ -38,7 +38,7 @@ function SignUp() {
                 <input type="text" className='mx-auto p-2.5 w-full' placeholder='your email' onChange={handleChange} id='email' name='email' />
                 <button className='p-2.5 bg-red-600 text-white font-["owners2"] px-4 whitespace-nowrap hover:scale-105 duration-150 ease-in-out w-full md:w-auto'>Sign up for updates</button>
             </form>
-            {status === "success" && <p className=" text-white font-['owners2'] pt-2.5 text-lg">Email saved!</p>}
+            {status === "success" && <p className=" text-white font-owners pt-2.5 text-lg">Email saved!</p>}
         </div>)
 }
 

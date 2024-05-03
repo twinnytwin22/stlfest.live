@@ -9,7 +9,7 @@ function page() {
             <div className='mx-auto hidden'>
                 <Link href="https://www.ticketfalcon.com/e/stlfestflashsale/">
                     <div className='bg-blue-600 p-2.5 max-w-sm flex w-full mx-auto justify-center md:hover:scale-105 hover:bg-blue-800'>
-                        <h2 className=' text-lg text-center font-[owners2] text-white'>Having trouble? Checkout straight from Ticket Falcon</h2>
+                        <h2 className=' text-lg text-center font-owners text-white'>Having trouble? Checkout straight from Ticket Falcon</h2>
                     </div>
                 </Link>
             </div>

@@ -3,11 +3,11 @@ import Link from 'next/link';
 import React, { useState } from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
 import ContactButton from './modal'
+import { peoplesChoice, venderAppLink, volunteerAppLink } from '../../lib/constants';
 
 
 const extLink = 'https://www.ticketfalcon.com/e/stlfestflashsale/'
 const intLink = '/tickets'
-const peoplesChoice = 'https://docs.google.com/forms/d/e/1FAIpQLSf6PVuLMC0F86awl4fMiysN2hrqNcMJQuJjtXjNhWbnI3Ligw/viewform'
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -41,7 +41,7 @@ function NavBar() {
                     </div>
                     {isOpen && <MobileNav />}
                     <div className="hidden justify-between items-center w-full lg:flex lg:w-auto ">
-                        <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 font-['owners2']">
+                        <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 font-owners">
 
 
                             <Routes />
@@ -73,8 +73,11 @@ const Routes = () => {
         <>        <li className='hidden'>
             <Link href={peoplesChoice} className="hidden py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">People's Choice</Link>
         </li>
-            <li className='hidden'>
-                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdrQEdHdEnTF9ymWJ18CfZpeXI0krQsAEGF7OyzWWV2xgEiDQ/viewform" className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">Volunteer</Link>
+        <li className=''>
+                <Link href={venderAppLink} className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">Vendors</Link>
+            </li>
+            <li className=''>
+                <Link href={volunteerAppLink} className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">Volunteer</Link>
             </li>
             <li className='hidden'>
                 <Link href={extLink} className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150 ">Tickets</Link>
