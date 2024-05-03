@@ -59,7 +59,7 @@ function HomeHeader() {
             <span className="text-xs bg-primary-600 text-white px-4 py-1.5 mr-3">
               <AiFillStar className="w-4 h-4 text-yellow-400" />
             </span>{" "}
-            <span className="text-xl font-owners">
+            <span className=" font-owners">
              Early Bird Flash Sale Now Live!
             </span>
             <svg

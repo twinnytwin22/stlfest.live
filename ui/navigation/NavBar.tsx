@@ -3,10 +3,9 @@ import Link from 'next/link';
 import React, { useState } from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
 import ContactButton from './modal'
-import { peoplesChoice, venderAppLink, volunteerAppLink } from '../../lib/constants';
+import { festLogo, flashSaleLink, peoplesChoice, venderAppLink, volunteerAppLink } from '../../lib/constants';
 
 
-const extLink = 'https://www.ticketfalcon.com/e/stlfestflashsale/'
 const intLink = '/tickets'
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +25,7 @@ function NavBar() {
             <nav className=" bg-blue-600 border-gray-200 px-4 lg:px-6 py-2.5 relative">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <a href="/" className="flex items-center">
-                        <img src="/images/logo_trans.png" className="mr-3 h-6 sm:h-12" alt="STL FEST Logo" />
+                        <img src={festLogo} className=" h-12" alt="STL FEST Logo" />
                         <span className="self-center text-5xl font-semibold font-[groupie-regular] whitespace-nowrap text-white">2024</span>
                     </a>
                     <div className="flex items-center ">
@@ -80,7 +79,7 @@ const Routes = () => {
                 <Link href={volunteerAppLink} className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150">Volunteer</Link>
             </li>
             <li className='hidden'>
-                <Link href={extLink} className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150 ">Tickets</Link>
+                <Link href={flashSaleLink} className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150 ">Tickets</Link>
             </li>
             <li className='hidden'>
                 <Link href="https://form.jotform.com/212233927554052" className="block py-2 pr-4 pl-3 text-white  hover:bg-gray-50 lg:hover:bg-transparent hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150  ">Press</Link>
