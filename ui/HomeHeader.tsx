@@ -60,7 +60,7 @@ function HomeHeader() {
               <AiFillStar className="w-4 h-4 text-yellow-400" />
             </span>{" "}
             <span className=" font-owners">
-             Early Bird Flash Sale Now Live!
+             Tickets On Sale Now!
             </span>
             <svg
               className="ml-2 w-5 h-5"
@@ -91,7 +91,7 @@ function HomeHeader() {
           <div className="p-2"/>
 
             <Link href={flashSaleLink} className="bg-red-600 w-fit p-3 relative z-20 font-owners mx-auto text-white hover:scale-110 ease-in-out duration-200">
-              GET FLASH SALE TICKETS!
+              GET YOUR TICKETS!
             </Link>
             <br/>
             <div className="p-4"/>
