@@ -5,3 +5,4 @@ export const peoplesChoice = 'https://docs.google.com/forms/d/e/1FAIpQLSf6PVuLMC
 export const flashSaleLink = 'https://www.ticketfalcon.com/e/stlfest24/'
 
 export const festLogo = '/images/STL-4EST-LOGO.png'
+export const sponsorDeck = '/24_STLfest_sponsorship_deck.pdf'
