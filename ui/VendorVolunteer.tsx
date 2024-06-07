@@ -14,20 +14,23 @@ function VendorVolunteer() {
       />
 
       <div className="max-w-screen-xl mx-auto w-full min-h-[300px] relative ">
-        <div className="w-full flex flex-col lg:flex-row mx-auto justify-around p-12 items-center space-y-8 lg:space-y-0 duration-150 ease-in-out">
-          <div className="bg-gray-100 border hidden border-gray-200 p-8 max-w-sm lg:max-w-md w-full space-y-3 ">
+     {<div className="bg-gray-100 border border-gray-200 p-8 md:p-4 max-w-sm lg:max-w-5xl w-full space-y-3 mx-auto mt-16 ">
             <h1 className="font-[bubblegum-pop-highlight] text-center text-3xl uppercase">
               Vote For The People's Choice!{" "}
             </h1>
             <p className="text-center text-gray-700">
-              Who would you like to see perform at the 2023 STLF3ST Block Party?
+              Who would you like to see perform at the 2024 STLF3ST Block Party?
             </p>
-            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf6PVuLMC0F86awl4fMiysN2hrqNcMJQuJjtXjNhWbnI3Ligw/viewform">
-              <div className='text-white hidden bg-red-600 p-2.5 font-owners w-fit px-6 mx-auto hover:scale-105 mt-2  duration-150 ease-in-out'>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfTWjTGVA4tzLHjsVH7NS324qnLUYkiJ4WiB6J5YzOgIQmwUw/viewform">
+              <div className='text-white  bg-red-600 p-2.5 font-owners w-fit px-6 mx-auto hover:scale-105 mt-2  duration-150 ease-in-out'>
                 Vote Now!
               </div>
             </Link>
-          </div>
+          </div>}
+
+
+        <div className= "max-w-6xl w-full flex flex-col lg:flex-row mx-auto justify-around p-8 items-center space-y-8 lg:space-y-0 duration-150 ease-in-out">
+      
           <div className="bg-gray-100 border border-gray-200 p-8 max-w-sm lg:max-w-md w-full space-y-3">
             <h1 className="font-[bubblegum-pop-highlight] text-center text-3xl uppercase">
               Now Accepting Volunteers
