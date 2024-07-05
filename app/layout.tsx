@@ -1,13 +1,12 @@
-import Providers from "../lib/providers"
-import Footer from "../ui/navigation/Footer"
-import NavBar from "../ui/navigation/NavBar"
+import Providers from "../lib/providers";
+import Footer from "../ui/navigation/Footer";
+import NavBar from "../ui/navigation/NavBar";
 export const metadata = {
-  title: 'STL FEST 2024',
-  description: 'STL FEST 2024',
+  title: "STL FEST 2024",
+  description: "STL FEST 2024",
   openGraph: {
     title: "STLFEST.live",
-    description:
-      "STL FEST 2024",
+    description: "STL FEST 2024",
     url: "https:/stlfest.live",
     siteName: "STL FEST",
     images: [
@@ -25,20 +24,21 @@ export const metadata = {
     ],
     locale: "en-US",
     type: "website",
-
   },
-}
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
       <Providers>
-        <body >
-          <div >
-            <NavBar />{children}
-            <Footer /></div>
-        </body></Providers>
+        <body>
+          <div>
+            <NavBar />
+            {children}
+            <Footer />
+          </div>
+        </body>
+      </Providers>
     </html>
-  )
+  );
 }
