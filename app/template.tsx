@@ -7,7 +7,7 @@ function Template({ children }: { children: React.ReactNode }) {
   const { focusedImage, setFocusedImage } = useSiteStore();
   // useHandleOutsideClick(focusedImage, setFocusedImage, 'FI')
   return (
-    <div className="h-screen relative" id="FI">
+    <div className="relative" id="FI">
       {focusedImage && (
         <>
           <div className="fixed inset-0 bg-black bg-opacity-70 z-[998]"></div>
