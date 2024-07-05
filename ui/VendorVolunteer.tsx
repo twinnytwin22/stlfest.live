@@ -37,11 +37,18 @@ console.log(focusedImage)
               VIEW MAP
             </div>
           </div></div>
+          <hr className="border-zinc-400 border opacity-25 my-8"/>
+          <div className="max-w-5xl mx-auto py-4">
+              <h3 className="font-[bubblegum-pop-highlight] text-center text-4xl uppercase">
+              STL FEST 2023 Recap</h3>
+          <iframe  className="aspect-video w-full mx-auto max-w-5xl rounded-lg" src="https://www.youtube.com/embed/Xt8iLx6qw_w?si=Gk712RWq0LALFwp6" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen ></iframe>
+</div>
+<hr className="border-zinc-400 border opacity-25 my-8"/>
 
         {<div className="bg-gray-100 border border-gray-200 p-8 md:p-4 max-w-sm lg:max-w-5xl w-full space-y-3 mx-auto my-16 ">
-          <h1 className="font-[bubblegum-pop-highlight] text-center text-3xl uppercase">
+          <h3 className="font-[bubblegum-pop-highlight] text-center text-3xl uppercase">
             Vote For The People's Choice!{" "}
-          </h1>
+          </h3>
           <p className="text-center text-gray-700">
             Who would you like to see perform at the 2024 STLF3ST Block Party?
           </p>
