@@ -19,7 +19,7 @@ console.log(focusedImage)
 
       <div className="max-w-screen-xl mx-auto w-full min-h-[300px] relative ">
       <h3 className="font-[bubblegum-pop-highlight] text-center text-4xl uppercase mt-8">
-              This Years Line-Ups</h3>
+              STL FEST 2024 Line-Ups</h3>
         <div className="mx-auto w-full p-4 md:p-8 flex flex-wrap gap-4">
           <div className="mx-auto">
             <Image src='/images/blockparty-lineup-2024.JPG' alt="line up" width={500} height={500} className="mx-auto rounded-lg" />
