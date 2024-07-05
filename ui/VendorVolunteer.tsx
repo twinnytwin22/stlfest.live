@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import ContactButton from "./navigation/modal";
 import { venderAppLink, volunteerAppLink } from "../lib/constants";
+import Image from "next/image";
 
 function VendorVolunteer() {
   return (
@@ -14,7 +15,12 @@ function VendorVolunteer() {
       />
 
       <div className="max-w-screen-xl mx-auto w-full min-h-[300px] relative ">
-     {<div className="bg-gray-100 border border-gray-200 p-8 md:p-4 max-w-sm lg:max-w-5xl w-full space-y-3 mx-auto mt-16 ">
+        <div className="mx-auto  p-4 md:p-8 flex flex-wrap gap-4">
+        <Image src='/images/blockparty-lineup-2024.JPG' alt="line up" width={500} height={500} className="mx-auto rounded-lg"/>
+
+          <Image src='/images/main-lineup-2024.JPG' alt="line up" width={500} height={500} className="mx-auto rounded-lg"/>
+        </div>
+     {<div className="bg-gray-100 border border-gray-200 p-8 md:p-4 max-w-sm lg:max-w-5xl w-full space-y-3 mx-auto my-16 ">
             <h1 className="font-[bubblegum-pop-highlight] text-center text-3xl uppercase">
               Vote For The People's Choice!{" "}
             </h1>
@@ -29,7 +35,7 @@ function VendorVolunteer() {
           </div>}
 
 
-        <div className= "max-w-6xl w-full flex flex-col lg:flex-row mx-auto justify-around p-8 items-center space-y-8 lg:space-y-0 duration-150 ease-in-out">
+        <div className= "max-w-6xl w-full hidden flex-col lg:flex-row mx-auto justify-around p-8 items-center space-y-8 lg:space-y-0 duration-150 ease-in-out">
       
           <div className="bg-gray-100 border border-gray-200 p-8 max-w-sm lg:max-w-md w-full space-y-3">
             <h1 className="font-[bubblegum-pop-highlight] text-center text-3xl uppercase">
