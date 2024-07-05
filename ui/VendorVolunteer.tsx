@@ -43,7 +43,7 @@ console.log(focusedImage)
           <div className="max-w-5xl mx-auto py-4">
               <h3 className="font-[bubblegum-pop-highlight] text-center pb-4 text-4xl uppercase">
               STL FEST 2023 Recap</h3>
-          <iframe  className="aspect-video w-full mx-auto max-w-5xl rounded-lg" src="https://www.youtube.com/embed/Xt8iLx6qw_w?si=Gk712RWq0LALFwp6" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen ></iframe>
+          <iframe  className="aspect-video w-full mx-auto max-w-5xl rounded-lg px-4 md:px-0" src="https://www.youtube.com/embed/Xt8iLx6qw_w?si=Gk712RWq0LALFwp6" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen ></iframe>
 </div>
 <hr className="border-zinc-400 border opacity-25 my-8"/>
 
