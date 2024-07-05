@@ -18,6 +18,8 @@ console.log(focusedImage)
       />
 
       <div className="max-w-screen-xl mx-auto w-full min-h-[300px] relative ">
+      <h3 className="font-[bubblegum-pop-highlight] text-center text-4xl uppercase mt-8">
+              This Years Line-Ups</h3>
         <div className="mx-auto w-full p-4 md:p-8 flex flex-wrap gap-4">
           <div className="mx-auto">
             <Image src='/images/blockparty-lineup-2024.JPG' alt="line up" width={500} height={500} className="mx-auto rounded-lg" />
@@ -39,7 +41,7 @@ console.log(focusedImage)
           </div></div>
           <hr className="border-zinc-400 border opacity-25 my-8"/>
           <div className="max-w-5xl mx-auto py-4">
-              <h3 className="font-[bubblegum-pop-highlight] text-center text-4xl uppercase">
+              <h3 className="font-[bubblegum-pop-highlight] text-center pb-4 text-4xl uppercase">
               STL FEST 2023 Recap</h3>
           <iframe  className="aspect-video w-full mx-auto max-w-5xl rounded-lg" src="https://www.youtube.com/embed/Xt8iLx6qw_w?si=Gk712RWq0LALFwp6" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen ></iframe>
 </div>
