@@ -4,6 +4,7 @@ import HomeHeader from '../ui/HomeHeader'
 import VendorVolunteer from '../ui/VendorVolunteer'
 import FlashSale from '../ui/FlashSale'
 import LineUp from '../ui/LineUp'
+import FAQ from '../ui/FAQ/FAQ'
 
 function page() {
     return (
@@ -14,6 +15,7 @@ function page() {
             <LineUp />
             <PhotoSlide /></div>
             <VendorVolunteer />
+            <FAQ/>
         </div>
     )
 }

@@ -1,12 +1,10 @@
 "use client";
 import React from "react";
 import LaunchCountdown from "./Countdown/LaunchCountdown";
-import { TARGET_DATE } from "./Countdown/targetDate";
-import { AiFillInstagram, AiFillStar } from "react-icons/ai";
+import { AiFillStar } from "react-icons/ai";
 import Link from "next/link";
 import Gap from "./Misc/Gap";
 import SocialRow from "./Misc/SocialRow";
-import SignUp from "./Misc/SignUp";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { flashSaleLink } from "../lib/constants";
