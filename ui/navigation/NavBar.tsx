@@ -11,11 +11,11 @@ import {
   venderAppLink,
   volunteerAppLink,
 } from "../../lib/constants";
+import { useSiteStore } from "../../app/store";
 
 const intLink = "/tickets";
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
-
   const handleOpenModal = () => {
     console.log("open");
     setIsOpen(true);
@@ -76,6 +76,8 @@ const MobileNav = () => {
 };
 
 const Routes = () => {
+  const {setShowVendors} = useSiteStore()
+
   return (
     <>
       {" "}
@@ -94,6 +96,13 @@ const Routes = () => {
         >
           Vendors
         </Link>
+      </li>
+      <li className="" onClick={() => setShowVendors(true)}>
+        <p
+          className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 lg:hover:bg-transparent  hover:text-white lg:p-0 hover:scale-105 ease-in-out duration-150"
+        >
+          Vendors
+        </p>
       </li>
       <li className="hidden">
         <Link

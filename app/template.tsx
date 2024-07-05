@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { useSiteStore } from "./store";
+import VendorCarousel from "../ui/VendorCarousel";
 function Template({ children }: { children: React.ReactNode }) {
   const { focusedImage, setFocusedImage } = useSiteStore();
   // useHandleOutsideClick(focusedImage, setFocusedImage, 'FI')
@@ -32,6 +33,8 @@ function Template({ children }: { children: React.ReactNode }) {
           </div>
         </>
       )}
+            <VendorCarousel />
+
       {children}
     </div>
   );

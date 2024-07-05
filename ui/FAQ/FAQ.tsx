@@ -9,7 +9,7 @@ function FAQ() {
   const [activeIndex, setActiveIndex] = useState(-1);
 
   return (
-    <div className="bg-gradient-to-t to-blue-700 from-fuchsia-300 relative">
+    <div className="bg-gradient-to-t to-blue-700 via-blue-900 from-fuchsia-300 relative">
       <motion.section
         className="bg-scroll"
         initial={{ opacity: 0 }}
