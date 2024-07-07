@@ -93,7 +93,7 @@ function HomeHeader() {
             </Link>
             <br/>
             <div className="p-4"/>
-          <LaunchCountdown targetDate={getNextJulySeventh()} />
+          {/* <LaunchCountdown targetDate={getNextJulySeventh()} /> */}
       
           <Gap />
           <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
